@@ -1,4 +1,6 @@
 # Facts
+# Authors: Justin Leone, Dan Farquhar, Chris Morris
+
 This app shows fun facts on a Chevy vehicle. It was conceived and created during HackPSU 2017, and it was definitely
 a learning experience for all of us!
 
