@@ -13,6 +13,7 @@
     <script src="js/ngi.polyfill.min.js"></script>
     <script src="GMLIB/system.js"></script>
     <script src="GMLIB/info.js"></script>
+    <script src="js/ButtonManager.js"></script>
 
     <!-- Uncomment libraries as you need them: -->
     <!-- <script src="GMLIB/comm.js"></script> -->
@@ -20,8 +21,9 @@
     <!-- <script src="GMLIB/media.js"></script> -->
     <!-- <script src="GMLIB/nav.js"></script> -->
     <!-- <script src="GMLIB/phone.js"></script> -->
-    <!-- <script src="GMLIB/ui.js"></script> -->
-    <!-- <script src="GMLIB/voice.js"></script> -->
+    <script src="GMLIB/ui.js"></script>
+     <script src="GMLIB/voice.js"></script> 
+
 
   </head>
   <body>
@@ -31,11 +33,20 @@
 
         <!-- Remove all code inside #main and add your own! -->
         <h1>Facts</h1>
+        <p>Press next for an animal fact, previous for a tech fact, or press back for a special tweet!</p>
         <p>
           <!-- Your VIN is: <span id="vin"></span>< -->
           <span id="funfact"></span>
         </p>
-
+        <p>
+          <div id="tweet">
+          <blockquote class="twitter-tweet" data-lang="en">
+            
+            <p lang="en" dir="ltr" >
+            Shoutout to <a href="https://twitter.com/GM?ref_src=twsrc%5Etfw">@GM</a> for sponsoring HackPSU and letting us develop software for their vehicles!</p>&mdash; Justin Leone (@LeoLeone_) <a href="https://twitter.com/LeoLeone_/status/927213544025788417?ref_src=twsrc%5Etfw">November 5, 2017</a></blockquote>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        </p>
       </div>
     </div>
 
